@@ -19,18 +19,6 @@ function play(connection, message) {
 
 var bot = new Discord.Client();
 var servers = {};
-/*
-const Discord = require("discord.js"); 
-const TOKEN = "NDg4Mzg3OTQ4NDcyMDQxNDcy.DnbeWg.XpV-wuQNnhJmGmVC6eWkWsxhN9k";
-var bot = new Discord.Client();
-var channel = bot.channels.get('454492507296890880');
-bot.login(TOKEN);
-
-
-
-*/
-
-
 
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
